@@ -16,12 +16,61 @@
   }
 }
 
+.colorPallet {
+  color: #0f0c23;
+  color: #435585;
+  color: #818FB4;
+  color: #F5E8C7;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #04020f;
+  font-family: monospace;
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.logo {
+  color: #818FB4;
+  font-weight: 700;
+  font-size: 27px;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+
+  text-decoration: underline;
+}
+
+.navLink{
+  font-weight: 600;
+  color: #bfcef7;
+  letter-spacing: 3px;
+}
+.navLink:hover{
+  text-decoration: overline;
+}
+
+.tag{
+  background-color: #F5E8C7;
+  color: #435585;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 10px;
+}
+
+.pm-txt{
+  color: #818FB4;
+}
+.desc{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
 }
